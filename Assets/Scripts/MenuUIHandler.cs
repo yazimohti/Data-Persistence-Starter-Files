@@ -9,7 +9,7 @@ public class MenuUIHandler : MonoBehaviour
 {
     public InputField inputField;
     public static string userName;
-
+    
     public void StartNew()
     {
         userName = inputField.text;
